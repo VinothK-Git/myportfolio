@@ -1,0 +1,4 @@
+Add your resume to this folder and name it exactly: resume.pdf
+
+The Resume links in the portfolio are already set to open /resume.pdf.
+Alternatively, open src/data.ts and replace resumeUrl with your Google Drive, LinkedIn, or other public resume URL.
