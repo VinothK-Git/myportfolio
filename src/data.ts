@@ -3,7 +3,7 @@ export type Project = { number: string; kind: string; title: string[]; tags: str
 export const profile = {
   name: 'Vinoth', initials: 'vK', email: 'vinothkrishnamoorthy73@gmail.com',
   // Put your PDF at public/resume.pdf, or replace this with a Google Drive / LinkedIn resume link.
-  resumeUrl: 'public/resume.pdf',
+  resumeUrl: 'https://drive.google.com/file/d/1zf_W0Y4BDXHm92uzd0kCK7UnVsFCXEZy/view?usp=sharing',
   role: 'a curious builder exploring the space where artificial intelligence, design and real-world problems meet.',
   location: 'Based anywhere · Working globally',
   bio: 'I believe AI is most interesting when it makes people feel more capable, not less human.',
@@ -13,7 +13,7 @@ export const profile = {
 }
 
 export const projects: Project[] = [
-  { number: '01', kind: 'AI product concept', title: ['Signal', 'Studio'], tags: 'Strategy · Design · AI', style: 'signal' },
-  { number: '02', kind: 'Personal experiment', title: ['Thinking', 'in Systems'], tags: 'Research · Writing', style: 'systems' },
-  { number: '03', kind: 'Creative technology', title: ['Everyday', 'Intelligence'], tags: 'AI · Culture · People', style: 'intelligence' }
+  { number: '01', kind: 'AI integrated', title: ['Safety', 'Chatbot'], tags: 'Question · Think · Ensure Safety', style: 'signal' },
+  { number: '02', kind: 'Open CV', title: ['OpenCV', 'Image Processing'], tags: 'Detect · Indicate · Report', style: 'systems' },
+  { number: '03', kind: 'What really did you write?', title: ['Detect', 'return'], tags: 'AI · Thoughts · Pssst.I got it', style: 'intelligence' }
 ]
