@@ -15,5 +15,5 @@ export const profile = {
 export const projects: Project[] = [
   { number: '01', kind: 'AI integrated', title: ['Safety', 'Chatbot'], tags: 'Question · Think · Ensure Safety', style: 'signal' },
   { number: '02', kind: 'Open CV', title: ['OpenCV', 'Image Processing'], tags: 'Detect · Indicate · Report', style: 'systems' },
-  { number: '03', kind: 'What really did you write?', title: ['Detect', 'return'], tags: 'AI · Thoughts · Pssst.I got it', style: 'intelligence' }
+  { number: '03', kind: 'What really did you write?', title: ['Handwriting', 'Identification'], tags: 'AI · Thoughts · Pssst.I got it', style: 'intelligence' }
 ]
