@@ -4,16 +4,16 @@ export const profile = {
   name: 'Vinoth', initials: 'vK', email: 'vinothkrishnamoorthy73@gmail.com',
   // Put your PDF at public/resume.pdf, or replace this with a Google Drive / LinkedIn resume link.
   resumeUrl: 'https://drive.google.com/file/d/1zf_W0Y4BDXHm92uzd0kCK7UnVsFCXEZy/view?usp=sharing',
-  role: 'a curious builder exploring the space where artificial intelligence, design and real-world problems meet.',
+  role: 'Turning ideas into intelligent solutions through AI and modern technology.',
   location: 'Based anywhere · Working globally',
   bio: 'I believe AI is most interesting when it makes people feel more capable, not less human.',
-  about: 'I enjoy asking better questions, making complex things clear, and building small experiments that have a point of view.',
+  about: 'I believe the best technology is simple, useful, and created with real people and real problems in mind.',
   skills: ['AI & automation', 'Product thinking', 'Creative direction', 'Learning in public'],
   socials: [{ label: 'LinkedIn', url: 'https://www.linkedin.com/in/vinoth-krishnamoorthy-k/' }, { label: 'X / Twitter', url: 'https://x.com/Vinok02063487' }, { label: 'Instagram', url: 'https://www.instagram.com/_vinoth.___k?igsh=MXo2ZzBvcm44eTE3' }]
 }
 
 export const projects: Project[] = [
-  { number: '01', kind: 'AI integrated', title: ['Safety', 'Chatbot'], tags: 'Question · Think · Ensure Safety', style: 'signal' },
-  { number: '02', kind: 'Open CV', title: ['OpenCV', 'Image Processing'], tags: 'Detect · Indicate · Report', style: 'systems' },
+  { number: '01', kind: 'AI-Safety integrated', title: ['Safety', 'Chatbot'], tags: 'Question · Think · Ensure Safety', style: 'signal' },
+  { number: '02', kind: 'OpenCV Image Processing', title: ['Fire', 'Detection'], tags: 'Detect · Indicate · Report', style: 'systems' },
   { number: '03', kind: 'What really did you write?', title: ['Handwriting', 'Identification'], tags: 'AI · Thoughts · Pssst.I got it', style: 'intelligence' }
 ]
