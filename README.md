@@ -1,14 +1,6 @@
-# AI Portfolio — React + TypeScript
+# Portfolio — React + TypeScript
 
-Complete Vite + React + TypeScript source code for a personal AI portfolio.
-
-## Edit your content
-
-Open `src/data.ts` and update your name, initials, email, bio, project details, and social links.
-
-## Add your résumé
-
-Put your PDF in `public/resume.pdf`. The site already includes a **Resume** navigation link and a **View résumé** button. You can instead set `resumeUrl` in `src/data.ts` to a public Google Drive or LinkedIn URL.
+Complete Vite + React + TypeScript source code for a personal portfolio.
 
 ## Run locally
 
