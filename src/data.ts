@@ -2,10 +2,10 @@ export type Project = { number: string; kind: string; title: string[]; tags: str
 
 export const profile = {
   name: 'Vinoth', initials: 'vK', email: 'vinothkrishnamoorthy73@gmail.com',
-  // Put your PDF at public/resume.pdf, or replace this with a Google Drive / LinkedIn resume link.
-  resumeUrl: 'https://drive.google.com/file/d/1zf_W0Y4BDXHm92uzd0kCK7UnVsFCXEZy/view?usp=sharing',
+  
+  resumeUrl: 'https://drive.google.com/file/d/1YZjbBY4HIY7URgYZGkZzsU2G_XWR9rwL/view?usp=sharing',
   role: 'Turning ideas into intelligent solutions through AI and modern technology.',
-  location: 'Based anywhere · Working globally',
+  location: 'Ready to Explore Worldwide · Working globally',
   bio: 'I believe AI is most interesting when it makes people feel more capable, not less human.',
   about: 'I believe the best technology is simple, useful, and created with real people and real problems in mind.',
   skills: ['AI & automation', 'Product thinking', 'Creative direction', 'Learning in public'],
