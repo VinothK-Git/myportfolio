@@ -3,7 +3,7 @@ export type Project = { number: string; kind: string; title: string[]; tags: str
 export const profile = {
   name: 'Vinoth', initials: 'vK', email: 'vinothkrishnamoorthy73@gmail.com',
   
-  resumeUrl: 'https://drive.google.com/file/d/1YZjbBY4HIY7URgYZGkZzsU2G_XWR9rwL/view?usp=sharing',
+  resumeUrl: 'https://drive.google.com/file/d/13hZW8pbquM8LxL26efjt4qWPFrD-go36/view?usp=sharing',
   role: 'Turning ideas into intelligent solutions through AI and modern technology.',
   location: 'Ready to Explore Worldwide · Working globally',
   bio: 'I believe AI is most interesting when it makes people feel more capable, not less human.',
