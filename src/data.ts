@@ -1,4 +1,4 @@
-export type Project = { number: string; kind: string; title: string[]; tags: string; style: 'signal' | 'systems' | 'intelligence' }
+export type Project = { number: string; kind: string; title: string[]; tags: string; style: 'signal' | 'systems' | 'intelligence'; href?: string }
 
 export const profile = {
   name: 'Vinoth', initials: 'vK', email: 'vinothkrishnamoorthy73@gmail.com',
@@ -15,5 +15,6 @@ export const profile = {
 export const projects: Project[] = [
   { number: '01', kind: 'AI-Safety integrated', title: ['Safety', 'Chatbot'], tags: 'Question · Think · Ensure Safety', style: 'signal' },
   { number: '02', kind: 'OpenCV Image Processing', title: ['Fire', 'Detection'], tags: 'Detect · Indicate · Report', style: 'systems' },
-  { number: '03', kind: 'What really did you write?', title: ['Handwriting', 'Identification'], tags: 'AI · Thoughts · Pssst.I got it', style: 'intelligence' }
+  { number: '03', kind: 'What really did you write?', title: ['Handwriting', 'Identification'], tags: 'AI · Thoughts · Pssst.I got it', style: 'intelligence' },
+  { number: '04', kind: 'Weather-aware recipe RAG', title: ['Lunch', 'Recipe Agent'], tags: 'Place · Forecast · Recipe', style: 'signal', href: '#lunch' }
 ]

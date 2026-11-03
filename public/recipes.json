@@ -1,0 +1,1351 @@
+[
+  {
+    "id": "L001",
+    "name": "Pepper Rasam with Rice",
+    "description": "A peppery, tangy South Indian rasam served with rice for a warm, comforting lunch.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "tropical"
+    ],
+    "weather": [
+      "rainy",
+      "cool",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "comfort",
+      "rice",
+      "pepper",
+      "tomato"
+    ],
+    "servings": 2,
+    "time_minutes": 30,
+    "ingredients": [
+      "1 cup rice",
+      "2 tomatoes, chopped",
+      "1 tsp pepper-cumin powder",
+      "1/2 tsp mustard seeds",
+      "A few curry leaves",
+      "1 tsp tamarind paste",
+      "1 tsp oil",
+      "Salt",
+      "3 cups water"
+    ],
+    "steps": [
+      "Cook rice until soft.",
+      "Simmer tomatoes, tamarind, salt, and water for 10 minutes.",
+      "Add pepper-cumin powder and simmer until fragrant; avoid a hard boil.",
+      "Temper mustard seeds and curry leaves in oil and add to the rasam.",
+      "Serve the rasam with rice."
+    ],
+    "substitution": "Use lemon juice at the end instead of tamarind.",
+    "drink_pairing": "A small cup of South Indian filter coffee after lunch, especially on a rainy day.",
+    "country": "India"
+  },
+  {
+    "id": "L002",
+    "name": "Lemon Rice with Cucumber Pachadi",
+    "description": "Bright lemon rice with a cool cucumber yogurt side, suited to hot weather.",
+    "seasons": [
+      "summer",
+      "spring",
+      "tropical"
+    ],
+    "weather": [
+      "hot"
+    ],
+    "tags": [
+      "vegetarian",
+      "light",
+      "rice",
+      "lemon",
+      "yogurt"
+    ],
+    "servings": 2,
+    "time_minutes": 25,
+    "ingredients": [
+      "2 cups cooked rice, cooled",
+      "1 lemon",
+      "1 tsp oil",
+      "1/2 tsp mustard seeds",
+      "1 tbsp peanuts (optional)",
+      "A few curry leaves",
+      "1/4 tsp turmeric",
+      "1/2 cucumber, grated",
+      "1/2 cup plain yogurt",
+      "Salt"
+    ],
+    "steps": [
+      "Mix grated cucumber with yogurt and a little salt; chill while preparing the rice.",
+      "Temper mustard seeds, peanuts, curry leaves, and turmeric in oil.",
+      "Turn off the heat and stir in lemon juice and salt.",
+      "Fold in the cooled rice and serve with cucumber pachadi."
+    ],
+    "substitution": "Skip peanuts and add roasted chana dal for crunch.",
+    "drink_pairing": "Chilled spiced buttermilk.",
+    "country": "India"
+  },
+  {
+    "id": "L003",
+    "name": "Tomato Rice with Cabbage Poriyal",
+    "description": "A straightforward one-pot style tomato rice served with quick cabbage poriyal.",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter",
+      "tropical"
+    ],
+    "weather": [
+      "hot",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "everyday",
+      "rice",
+      "tomato"
+    ],
+    "servings": 2,
+    "time_minutes": 35,
+    "ingredients": [
+      "1 cup rice",
+      "2 ripe tomatoes",
+      "1 small onion",
+      "1 cup shredded cabbage",
+      "1 tsp oil",
+      "1/2 tsp mustard seeds",
+      "A few curry leaves",
+      "1/4 tsp turmeric",
+      "1/2 tsp sambar powder",
+      "Salt"
+    ],
+    "steps": [
+      "Cook rice and let it cool slightly.",
+      "Temper mustard seeds and curry leaves; sauté onion and tomatoes with turmeric, sambar powder, and salt until soft.",
+      "Fold the cooked rice into the tomato mixture.",
+      "Sauté cabbage separately with a little oil and salt until tender; serve alongside."
+    ],
+    "substitution": "Use green peas or beans instead of cabbage.",
+    "drink_pairing": "Plain water with a squeeze of lime.",
+    "country": "India"
+  },
+  {
+    "id": "L004",
+    "name": "Vegetable Sambar with Rice",
+    "description": "A hearty lentil and vegetable sambar with rice, useful for a cloudy or rainy lunch.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "tropical"
+    ],
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cool"
+    ],
+    "tags": [
+      "vegetarian",
+      "lentils",
+      "comfort",
+      "rice",
+      "vegetables"
+    ],
+    "servings": 3,
+    "time_minutes": 45,
+    "ingredients": [
+      "3/4 cup toor dal",
+      "1 cup mixed vegetables",
+      "1 small onion",
+      "1 tomato",
+      "1 tbsp sambar powder",
+      "1 tsp tamarind paste",
+      "1/2 tsp mustard seeds",
+      "A few curry leaves",
+      "1 tsp oil",
+      "Rice and salt"
+    ],
+    "steps": [
+      "Cook toor dal until soft and mash it.",
+      "Simmer vegetables, onion, tomato, tamarind, sambar powder, salt, and water until vegetables are tender.",
+      "Stir in the cooked dal and simmer for 5 minutes.",
+      "Temper mustard seeds and curry leaves in oil; add to the sambar and serve with rice."
+    ],
+    "substitution": "Use moong dal if toor dal is unavailable.",
+    "drink_pairing": "Warm ginger tea after lunch on a wet, cool day.",
+    "country": "India"
+  },
+  {
+    "id": "L005",
+    "name": "Curd Rice with Pomegranate",
+    "description": "Cooling curd rice with a simple tempering and fresh pomegranate, suited to hot and humid weather.",
+    "seasons": [
+      "summer",
+      "spring",
+      "tropical"
+    ],
+    "weather": [
+      "hot"
+    ],
+    "tags": [
+      "vegetarian",
+      "light",
+      "yogurt",
+      "rice",
+      "cooling"
+    ],
+    "servings": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      "1 cup cooked rice",
+      "3/4 cup plain yogurt",
+      "1/4 cup milk or water",
+      "1/4 cup pomegranate seeds",
+      "1/2 tsp mustard seeds",
+      "A few curry leaves",
+      "1 tsp oil",
+      "Salt"
+    ],
+    "steps": [
+      "Mash the cooked rice lightly and cool it.",
+      "Stir in yogurt, milk or water, and salt.",
+      "Temper mustard seeds and curry leaves in oil; cool and fold into the rice.",
+      "Top with pomegranate seeds and serve cool, not ice-cold."
+    ],
+    "substitution": "Use grated cucumber instead of pomegranate.",
+    "drink_pairing": "Spiced buttermilk or water.",
+    "country": "India"
+  },
+  {
+    "id": "L006",
+    "name": "Chickpea Sundal Bowl",
+    "description": "A lighter lunch bowl of chickpeas with coconut, lemon, and vegetables for warmer days.",
+    "seasons": [
+      "summer",
+      "spring",
+      "tropical"
+    ],
+    "weather": [
+      "hot",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "protein",
+      "light",
+      "chickpeas",
+      "coconut"
+    ],
+    "servings": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      "2 cups cooked chickpeas",
+      "2 tbsp grated coconut",
+      "1/2 cucumber, diced",
+      "1 tomato, diced",
+      "1/2 tsp mustard seeds",
+      "A few curry leaves",
+      "1 tsp oil",
+      "1/2 lemon",
+      "Salt"
+    ],
+    "steps": [
+      "Warm chickpeas in a pan with a splash of water and salt.",
+      "Temper mustard seeds and curry leaves in oil and stir through the chickpeas.",
+      "Mix with coconut, cucumber, tomato, and lemon juice.",
+      "Taste and adjust salt and lemon before serving."
+    ],
+    "substitution": "Use cooked black-eyed peas instead of chickpeas.",
+    "drink_pairing": "Lime water.",
+    "country": "India"
+  },
+  {
+    "id": "L007",
+    "name": "Millet Vegetable Pongal",
+    "description": "A soft savory millet and moong dal pongal with pepper and cumin for a cooler or rainy day.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "tropical"
+    ],
+    "weather": [
+      "rainy",
+      "cool",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "comfort",
+      "millet",
+      "lentils",
+      "pepper"
+    ],
+    "servings": 2,
+    "time_minutes": 35,
+    "ingredients": [
+      "3/4 cup foxtail millet",
+      "1/4 cup moong dal",
+      "1/2 tsp cumin",
+      "1/2 tsp black pepper",
+      "1 tsp ghee or oil",
+      "1 cup diced carrot and beans",
+      "A few curry leaves",
+      "Salt",
+      "4 cups water"
+    ],
+    "steps": [
+      "Rinse millet and moong dal.",
+      "Toast cumin and pepper in ghee or oil; add curry leaves.",
+      "Add millet, dal, vegetables, salt, and water.",
+      "Cover and cook until soft and porridge-like, adding water if needed."
+    ],
+    "substitution": "Use rice instead of millet.",
+    "drink_pairing": "South Indian filter coffee after lunch.",
+    "country": "India"
+  },
+  {
+    "id": "L008",
+    "name": "Keerai Dal with Rice",
+    "description": "Spinach cooked with moong dal and mild spices, served with rice for an easy everyday lunch.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "tropical"
+    ],
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cool"
+    ],
+    "tags": [
+      "vegetarian",
+      "lentils",
+      "greens",
+      "rice",
+      "comfort"
+    ],
+    "servings": 2,
+    "time_minutes": 35,
+    "ingredients": [
+      "1/2 cup moong dal",
+      "2 cups chopped spinach",
+      "1 small tomato",
+      "1/4 tsp turmeric",
+      "1/2 tsp cumin",
+      "1 tsp oil",
+      "2 cups cooked rice",
+      "Salt",
+      "2 cups water"
+    ],
+    "steps": [
+      "Simmer moong dal with turmeric and water until soft.",
+      "Add spinach, tomato, and salt; cook until spinach wilts.",
+      "Temper cumin in oil and stir into the dal.",
+      "Serve warm with rice."
+    ],
+    "substitution": "Use amaranth greens instead of spinach.",
+    "drink_pairing": "Warm rasam or plain water.",
+    "country": "India"
+  },
+  {
+    "id": "L009",
+    "name": "Coconut Vegetable Rice",
+    "description": "Mild coconut rice with seasonal vegetables, a quick lunch for warm days.",
+    "seasons": [
+      "summer",
+      "spring",
+      "tropical"
+    ],
+    "weather": [
+      "hot",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "rice",
+      "coconut",
+      "light"
+    ],
+    "servings": 2,
+    "time_minutes": 30,
+    "ingredients": [
+      "2 cups cooked rice",
+      "1/2 cup mixed vegetables",
+      "1/3 cup grated coconut",
+      "1/2 tsp mustard seeds",
+      "1 tsp oil",
+      "A few curry leaves",
+      "1 green chilli (optional)",
+      "Salt"
+    ],
+    "steps": [
+      "Cook vegetables until just tender.",
+      "Temper mustard seeds and curry leaves in oil; add optional chilli.",
+      "Stir in grated coconut for one minute.",
+      "Fold through the rice and vegetables with salt; serve warm."
+    ],
+    "substitution": "Use frozen mixed vegetables if fresh ones are unavailable.",
+    "drink_pairing": "Chilled buttermilk.",
+    "country": "India"
+  },
+  {
+    "id": "L010",
+    "name": "Ragi Dosa with Tomato Chutney",
+    "description": "Quick ragi dosas with tangy tomato chutney for a lighter lunch without a large rice serving.",
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "autumn",
+      "tropical"
+    ],
+    "weather": [
+      "hot",
+      "cool",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "millet",
+      "light",
+      "dosa"
+    ],
+    "servings": 2,
+    "time_minutes": 30,
+    "ingredients": [
+      "1 cup ragi flour",
+      "1/2 cup rice flour",
+      "1 small onion, chopped",
+      "1 tomato",
+      "1/2 tsp cumin",
+      "1 tsp oil",
+      "1/2 tsp mustard seeds",
+      "Salt",
+      "Water as needed"
+    ],
+    "steps": [
+      "Mix ragi flour, rice flour, cumin, salt, and water into a thin batter.",
+      "Cook thin dosas on a lightly oiled hot pan until crisp at the edges.",
+      "Cook tomato and onion with salt until soft; blend or mash into a quick chutney.",
+      "Temper mustard seeds in a little oil and stir into the chutney."
+    ],
+    "substitution": "Use extra rice flour if ragi flour is unavailable.",
+    "drink_pairing": "Lime water on a hot afternoon.",
+    "country": "India"
+  },
+  {
+    "id": "L011",
+    "name": "Italian Minestrone",
+    "cuisine": "Italian",
+    "description": "A flexible tomato, bean, and vegetable soup that makes a warming rainy-day lunch.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "weather": [
+      "rainy",
+      "cool",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "soup",
+      "beans",
+      "pasta",
+      "comfort"
+    ],
+    "servings": 3,
+    "time_minutes": 40,
+    "ingredients": [
+      "1 tbsp olive oil",
+      "1 small onion, diced",
+      "1 carrot, diced",
+      "1 celery stalk, diced",
+      "1 can chopped tomatoes",
+      "1 can white beans, drained",
+      "1/2 cup small pasta",
+      "4 cups vegetable stock or water",
+      "1 tsp dried oregano",
+      "Salt and black pepper"
+    ],
+    "steps": [
+      "Soften onion, carrot, and celery in olive oil for 6 minutes.",
+      "Add tomatoes, beans, stock, oregano, salt, and pepper; simmer for 20 minutes.",
+      "Add pasta and cook until tender, adding water if the soup gets too thick.",
+      "Taste and adjust seasoning; serve hot."
+    ],
+    "substitution": "Use any cooked beans and small pasta shape available.",
+    "drink_pairing": "Warm herbal tea on a rainy day.",
+    "country": "Italy"
+  },
+  {
+    "id": "L012",
+    "name": "Greek Chickpea Salad Bowl",
+    "cuisine": "Greek",
+    "description": "A fresh chickpea, tomato, cucumber, and olive bowl with lemon dressing for warm weather.",
+    "seasons": [
+      "summer",
+      "spring",
+      "tropical"
+    ],
+    "weather": [
+      "hot",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "salad",
+      "chickpeas",
+      "light",
+      "no-cook"
+    ],
+    "servings": 2,
+    "time_minutes": 15,
+    "ingredients": [
+      "1 can chickpeas, rinsed",
+      "1 cucumber, diced",
+      "2 tomatoes, diced",
+      "1/4 red onion, thinly sliced",
+      "1/4 cup olives",
+      "2 tbsp olive oil",
+      "1 lemon",
+      "1/2 tsp dried oregano",
+      "Salt and black pepper",
+      "Feta (optional)"
+    ],
+    "steps": [
+      "Whisk olive oil, lemon juice, oregano, salt, and pepper.",
+      "Combine chickpeas, cucumber, tomatoes, onion, and olives.",
+      "Toss with dressing and top with feta if using.",
+      "Let stand for 5 minutes, then serve."
+    ],
+    "substitution": "Use white beans instead of chickpeas, or omit olives if preferred.",
+    "drink_pairing": "Sparkling water with lemon.",
+    "country": "Greece"
+  },
+  {
+    "id": "L013",
+    "name": "Mexican Black Bean Tacos",
+    "cuisine": "Mexican-inspired",
+    "description": "Quick black bean tacos with crunchy cabbage and lime, an easy lunch for warm days.",
+    "seasons": [
+      "summer",
+      "spring",
+      "tropical"
+    ],
+    "weather": [
+      "hot",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "beans",
+      "tacos",
+      "quick",
+      "light"
+    ],
+    "servings": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      "1 can black beans, rinsed",
+      "4 small tortillas",
+      "1/2 tsp ground cumin",
+      "1/2 tsp paprika",
+      "1 cup shredded cabbage",
+      "1 tomato, diced",
+      "1 lime",
+      "1 tbsp oil",
+      "Salt",
+      "Yogurt or salsa (optional)"
+    ],
+    "steps": [
+      "Warm oil in a pan; add beans, cumin, paprika, salt, and a splash of water; heat for 5 minutes.",
+      "Warm the tortillas in a dry pan.",
+      "Fill tortillas with beans, cabbage, and tomato.",
+      "Finish with lime juice and optional yogurt or salsa."
+    ],
+    "substitution": "Use kidney beans or chickpeas if black beans are unavailable.",
+    "drink_pairing": "Chilled lime water.",
+    "country": "Mexico"
+  },
+  {
+    "id": "L014",
+    "name": "Japanese Salmon Rice Bowl",
+    "cuisine": "Japanese-inspired",
+    "description": "A simple rice bowl with glazed salmon, cucumber, and sesame for a balanced cool-weather lunch.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "weather": [
+      "cool",
+      "cloudy"
+    ],
+    "tags": [
+      "fish",
+      "rice",
+      "bowl",
+      "ginger",
+      "soy"
+    ],
+    "servings": 2,
+    "time_minutes": 25,
+    "ingredients": [
+      "2 salmon fillets",
+      "2 cups cooked rice",
+      "1 tbsp soy sauce",
+      "1 tsp honey",
+      "1 tsp grated ginger",
+      "1 cucumber, sliced",
+      "1 tsp sesame seeds",
+      "1 tsp oil"
+    ],
+    "steps": [
+      "Mix soy sauce, honey, and ginger; brush over the salmon.",
+      "Pan-cook salmon in oil for 4–5 minutes per side, until cooked through.",
+      "Divide rice between bowls and add cucumber.",
+      "Flake salmon over the rice and sprinkle with sesame seeds."
+    ],
+    "substitution": "Use firm tofu in place of salmon and pan-sear until golden.",
+    "drink_pairing": "Green tea.",
+    "country": "Japan"
+  },
+  {
+    "id": "L015",
+    "name": "Thai Basil Tofu Stir-Fry",
+    "cuisine": "Thai-inspired",
+    "description": "A quick tofu and basil stir-fry with rice, suitable when a hot day calls for a fast lunch.",
+    "seasons": [
+      "summer",
+      "spring",
+      "tropical"
+    ],
+    "weather": [
+      "hot",
+      "rainy"
+    ],
+    "tags": [
+      "vegetarian",
+      "tofu",
+      "rice",
+      "quick",
+      "stir-fry"
+    ],
+    "servings": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      "250 g firm tofu, cubed",
+      "2 cups cooked rice",
+      "1 bell pepper, sliced",
+      "2 garlic cloves, minced",
+      "1 tbsp soy sauce",
+      "1 tsp lime juice",
+      "1 cup basil leaves",
+      "1 tbsp oil",
+      "Chilli to taste"
+    ],
+    "steps": [
+      "Pat tofu dry and pan-fry in oil until golden; set aside.",
+      "Stir-fry garlic and bell pepper for 3 minutes.",
+      "Return tofu to the pan and add soy sauce, lime, and chilli.",
+      "Fold in basil until just wilted; serve with rice."
+    ],
+    "substitution": "Use mushrooms or cooked chicken instead of tofu.",
+    "drink_pairing": "Iced lemongrass tea.",
+    "country": "Thailand"
+  },
+  {
+    "id": "L016",
+    "name": "Korean Vegetable Bibimbap",
+    "cuisine": "Korean-inspired",
+    "description": "A rice bowl topped with colorful vegetables, egg, and a mild gochujang sauce.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "tropical"
+    ],
+    "weather": [
+      "cool",
+      "cloudy",
+      "hot"
+    ],
+    "tags": [
+      "vegetarian",
+      "rice",
+      "egg",
+      "bowl",
+      "vegetables"
+    ],
+    "servings": 2,
+    "time_minutes": 30,
+    "ingredients": [
+      "2 cups cooked rice",
+      "1 carrot, cut into matchsticks",
+      "1 small zucchini, sliced",
+      "1 cup spinach",
+      "2 eggs",
+      "1 tbsp soy sauce",
+      "1 tsp sesame oil",
+      "1 tsp gochujang (optional)",
+      "1 tsp sesame seeds"
+    ],
+    "steps": [
+      "Sauté carrot, zucchini, and spinach separately until just tender; season lightly with soy sauce.",
+      "Fry the eggs to your liking.",
+      "Divide rice into bowls and arrange vegetables on top.",
+      "Add egg, sesame oil, sesame seeds, and a little gochujang if desired; mix before eating."
+    ],
+    "substitution": "Use tofu instead of egg and any quick-cooking vegetables you have.",
+    "drink_pairing": "Roasted barley tea, served warm or chilled.",
+    "country": "South Korea"
+  },
+  {
+    "id": "L017",
+    "name": "Turkish Red Lentil Soup",
+    "cuisine": "Turkish-inspired",
+    "description": "A smooth red lentil soup with cumin and lemon, especially comforting in cool or rainy weather.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "weather": [
+      "rainy",
+      "cool",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "lentils",
+      "soup",
+      "comfort",
+      "lemon"
+    ],
+    "servings": 3,
+    "time_minutes": 35,
+    "ingredients": [
+      "1 cup red lentils, rinsed",
+      "1 small onion, diced",
+      "1 carrot, diced",
+      "1 tbsp olive oil",
+      "1 tsp ground cumin",
+      "5 cups vegetable stock or water",
+      "1 lemon",
+      "Salt and black pepper"
+    ],
+    "steps": [
+      "Soften onion and carrot in olive oil for 5 minutes.",
+      "Stir in cumin and lentils, then add stock, salt, and pepper.",
+      "Simmer for 25 minutes until lentils are soft.",
+      "Blend until smooth and serve with lemon."
+    ],
+    "substitution": "Use split yellow lentils if red lentils are unavailable; cooking time may increase.",
+    "drink_pairing": "Mint tea.",
+    "country": "Türkiye"
+  },
+  {
+    "id": "L018",
+    "name": "Moroccan Vegetable Couscous",
+    "cuisine": "Moroccan-inspired",
+    "description": "Couscous with spiced vegetables and chickpeas for a filling lunch on cool or cloudy days.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "weather": [
+      "cool",
+      "cloudy",
+      "rainy"
+    ],
+    "tags": [
+      "vegetarian",
+      "couscous",
+      "chickpeas",
+      "vegetables",
+      "spiced"
+    ],
+    "servings": 2,
+    "time_minutes": 30,
+    "ingredients": [
+      "1 cup couscous",
+      "1 can chickpeas, rinsed",
+      "1 zucchini, diced",
+      "1 carrot, diced",
+      "1 can chopped tomatoes",
+      "1 tsp ground cumin",
+      "1/2 tsp cinnamon",
+      "1 tbsp olive oil",
+      "1 cup hot vegetable stock",
+      "Salt"
+    ],
+    "steps": [
+      "Pour hot stock over couscous, cover for 5 minutes, then fluff with a fork.",
+      "Sauté carrot and zucchini in olive oil for 5 minutes.",
+      "Add tomatoes, chickpeas, cumin, cinnamon, and salt; simmer until vegetables are tender.",
+      "Serve the vegetable mixture over couscous."
+    ],
+    "substitution": "Use bulgur or rice instead of couscous, adjusting the cooking method.",
+    "drink_pairing": "Mint tea.",
+    "country": "Morocco"
+  },
+  {
+    "id": "L019",
+    "name": "French Ratatouille with Bread",
+    "cuisine": "French-inspired",
+    "description": "A gentle stew of summer vegetables with herbs, served with bread or grains.",
+    "seasons": [
+      "summer",
+      "spring",
+      "tropical"
+    ],
+    "weather": [
+      "hot",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "vegetables",
+      "stew",
+      "light",
+      "summer"
+    ],
+    "servings": 3,
+    "time_minutes": 40,
+    "ingredients": [
+      "1 small eggplant, diced",
+      "1 zucchini, diced",
+      "1 bell pepper, diced",
+      "2 tomatoes, chopped",
+      "1 small onion, diced",
+      "2 tbsp olive oil",
+      "1 tsp dried thyme",
+      "Salt and black pepper",
+      "Bread to serve"
+    ],
+    "steps": [
+      "Soften onion and bell pepper in olive oil for 5 minutes.",
+      "Add eggplant and zucchini; cook for 8 minutes, stirring occasionally.",
+      "Add tomatoes, thyme, salt, and pepper; cover and simmer until soft.",
+      "Serve warm or at room temperature with bread."
+    ],
+    "substitution": "Serve with rice or couscous instead of bread.",
+    "drink_pairing": "Sparkling water with herbs and lemon.",
+    "country": "France"
+  },
+  {
+    "id": "L020",
+    "name": "Vietnamese-Inspired Fresh Spring Rolls",
+    "cuisine": "Vietnamese-inspired",
+    "description": "Fresh rice-paper rolls with crisp vegetables, herbs, and a quick peanut-lime dip for hot weather.",
+    "seasons": [
+      "summer",
+      "spring",
+      "tropical"
+    ],
+    "weather": [
+      "hot"
+    ],
+    "tags": [
+      "vegetarian",
+      "fresh",
+      "no-cook",
+      "light",
+      "rice paper"
+    ],
+    "servings": 2,
+    "time_minutes": 25,
+    "ingredients": [
+      "6 rice-paper wrappers",
+      "1 cup cooked rice noodles",
+      "1 carrot, cut into thin strips",
+      "1/2 cucumber, cut into strips",
+      "1 cup lettuce leaves",
+      "Fresh mint leaves",
+      "2 tbsp peanut butter",
+      "1 lime",
+      "2 tbsp warm water",
+      "Soy sauce to taste"
+    ],
+    "steps": [
+      "Mix peanut butter, lime juice, warm water, and a little soy sauce into a dipping sauce.",
+      "Soften one rice-paper wrapper at a time in warm water.",
+      "Add noodles, carrot, cucumber, lettuce, and mint; fold in the sides and roll tightly.",
+      "Serve the rolls with the dipping sauce."
+    ],
+    "substitution": "Use sunflower seed butter or a soy-lime dip instead of peanut butter.",
+    "drink_pairing": "Iced jasmine tea.",
+    "country": "Vietnam"
+  },
+  {
+    "id": "L021",
+    "name": "American Chicken Noodle Soup",
+    "cuisine": "American",
+    "description": "A familiar chicken and noodle soup for a warm, filling lunch on cool or rainy days.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "weather": [
+      "rainy",
+      "cool",
+      "cloudy"
+    ],
+    "tags": [
+      "chicken",
+      "soup",
+      "noodles",
+      "comfort"
+    ],
+    "servings": 3,
+    "time_minutes": 35,
+    "ingredients": [
+      "250 g boneless chicken",
+      "1 small onion, diced",
+      "1 carrot, sliced",
+      "1 celery stalk, sliced",
+      "5 cups chicken stock",
+      "1 cup egg noodles",
+      "1/2 tsp dried thyme",
+      "1 tbsp oil",
+      "Salt and black pepper"
+    ],
+    "steps": [
+      "Sauté onion, carrot, and celery in oil for 5 minutes.",
+      "Add chicken, stock, thyme, salt, and pepper; simmer until chicken is cooked through.",
+      "Remove and shred the chicken, then return it to the pot.",
+      "Add noodles and simmer until tender; serve hot."
+    ],
+    "substitution": "Use cooked white beans and vegetable stock for a vegetarian version.",
+    "drink_pairing": "Warm tea.",
+    "country": "United States"
+  },
+  {
+    "id": "L022",
+    "name": "Spanish Potato Tortilla",
+    "cuisine": "Spanish",
+    "description": "A thick potato and egg omelette served warm or at room temperature with a simple salad.",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "tropical"
+    ],
+    "weather": [
+      "hot",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "eggs",
+      "potato",
+      "make-ahead"
+    ],
+    "servings": 2,
+    "time_minutes": 35,
+    "ingredients": [
+      "3 medium potatoes, thinly sliced",
+      "1 small onion, thinly sliced",
+      "5 eggs",
+      "2 tbsp olive oil",
+      "Salt and black pepper",
+      "Green salad to serve"
+    ],
+    "steps": [
+      "Cook potatoes and onion slowly in olive oil with a pinch of salt until tender; drain excess oil.",
+      "Beat eggs with salt and pepper, then fold in the potatoes and onion.",
+      "Pour into a non-stick pan and cook on low heat until mostly set.",
+      "Carefully flip or finish under a grill until set; rest briefly before slicing."
+    ],
+    "substitution": "Add sliced cooked peppers or spinach to the egg mixture.",
+    "drink_pairing": "Sparkling water with citrus.",
+    "country": "Spain"
+  },
+  {
+    "id": "L023",
+    "name": "Chinese-Inspired Ginger Congee",
+    "cuisine": "Chinese-inspired",
+    "description": "Soft rice porridge with ginger and scallions, a soothing warm lunch in cool or wet weather.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "weather": [
+      "rainy",
+      "cool",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "rice",
+      "porridge",
+      "ginger",
+      "comfort"
+    ],
+    "servings": 2,
+    "time_minutes": 50,
+    "ingredients": [
+      "1/2 cup rice",
+      "5 cups water or vegetable stock",
+      "1 tbsp finely sliced ginger",
+      "2 scallions, sliced",
+      "1 tsp soy sauce",
+      "1 tsp sesame oil",
+      "Salt"
+    ],
+    "steps": [
+      "Rinse rice and add it to a pot with water or stock and ginger.",
+      "Bring to a boil, then simmer gently, stirring occasionally, until the rice breaks down and the mixture is creamy.",
+      "Season lightly with salt and soy sauce.",
+      "Serve with scallions and a few drops of sesame oil."
+    ],
+    "substitution": "Use cooked leftover rice to shorten simmering time; add less liquid initially.",
+    "drink_pairing": "Warm green tea.",
+    "country": "China"
+  },
+  {
+    "id": "L024",
+    "name": "Ethiopian-Inspired Spiced Lentils",
+    "cuisine": "Ethiopian-inspired",
+    "description": "Red lentils simmered with tomato and warming spices, served with flatbread or rice.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "tropical"
+    ],
+    "weather": [
+      "rainy",
+      "cool",
+      "cloudy"
+    ],
+    "tags": [
+      "vegetarian",
+      "lentils",
+      "spiced",
+      "comfort"
+    ],
+    "servings": 3,
+    "time_minutes": 35,
+    "ingredients": [
+      "1 cup red lentils, rinsed",
+      "1 small onion, diced",
+      "2 tomatoes, chopped",
+      "1 tbsp oil",
+      "1 tsp paprika",
+      "1/2 tsp ground cumin",
+      "1/4 tsp turmeric",
+      "3 cups water",
+      "Salt",
+      "Flatbread or rice to serve"
+    ],
+    "steps": [
+      "Soften onion in oil for 5 minutes.",
+      "Stir in paprika, cumin, and turmeric, then add tomatoes and cook until soft.",
+      "Add lentils, water, and salt; simmer until the lentils are tender and thick.",
+      "Serve with flatbread or rice."
+    ],
+    "substitution": "Use cooked brown lentils and reduce the simmering time.",
+    "drink_pairing": "Ginger tea.",
+    "country": "Ethiopia"
+  },
+  {
+    "id": "L025",
+    "name": "Classic American Hamburger",
+    "country": "United States",
+    "cuisine": "American",
+    "description": "A juicy pan-seared beef patty in a bun with lettuce, tomato, and a simple sauce.",
+    "seasons": ["summer", "spring", "autumn", "tropical"],
+    "weather": ["hot", "cloudy"],
+    "tags": ["beef", "burger", "hamburger", "grill", "comfort"],
+    "servings": 2,
+    "time_minutes": 25,
+    "ingredients": ["300 g ground beef", "2 hamburger buns", "2 lettuce leaves", "1 tomato, sliced", "2 slices cheese (optional)", "1 tbsp mayonnaise", "1 tsp mustard", "Salt and black pepper", "1 tsp oil"],
+    "steps": ["Season the ground beef with salt and pepper; shape into two patties slightly wider than the buns.", "Heat oil in a pan and cook patties for about 4–5 minutes per side, until fully cooked.", "Add cheese during the last minute if using; lightly toast the buns.", "Spread mayonnaise and mustard on the buns and assemble with lettuce, tomato, and patties."],
+    "substitution": "Use a plant-based patty or a thick grilled portobello mushroom instead of beef.",
+    "drink_pairing": "Iced tea or sparkling water."
+  },
+  {
+    "id": "L026",
+    "name": "French-Style Pizza (Pissaladière)",
+    "country": "France",
+    "cuisine": "French, Provençal",
+    "description": "A southern French onion tart often called onion pizza, topped with slowly cooked onions, olives, and anchovies.",
+    "seasons": ["summer", "spring", "autumn", "tropical"],
+    "weather": ["cloudy", "cool"],
+    "tags": ["fish", "onion", "flatbread", "pizza", "baked"],
+    "servings": 3,
+    "time_minutes": 45,
+    "ingredients": ["1 sheet ready-made pizza dough", "3 large onions, thinly sliced", "1 tbsp olive oil", "1 tsp dried thyme", "10 black olives", "6 anchovy fillets (optional)", "Black pepper"],
+    "steps": ["Cook onions slowly in olive oil with thyme and pepper until very soft and golden, about 20 minutes.", "Heat the oven according to the dough package instructions.", "Spread the onions over the dough and arrange olives and anchovies on top.", "Bake until the crust is crisp and golden; slice and serve warm or at room temperature."],
+    "substitution": "Omit anchovies for a vegetarian version and add extra olives.",
+    "drink_pairing": "Sparkling water with lemon."
+  },
+  {
+    "id": "L027",
+    "name": "Dubai-Style Kebab Wrap",
+    "country": "United Arab Emirates",
+    "cuisine": "Emirati-inspired",
+    "description": "A spiced grilled kebab wrap inspired by the casual street-food style found in Dubai, served with crisp vegetables and yogurt sauce.",
+    "seasons": ["summer", "spring", "autumn", "tropical"],
+    "weather": ["hot", "cloudy"],
+    "tags": ["beef", "lamb", "kebab", "wrap", "grilled", "street food"],
+    "servings": 2,
+    "time_minutes": 30,
+    "ingredients": ["300 g ground lamb or beef", "2 flatbreads", "1/2 tsp ground cumin", "1/2 tsp ground coriander", "1/4 tsp paprika", "1 small garlic clove, minced", "1/2 cucumber, diced", "1/2 cup plain yogurt", "Lettuce and sliced tomato", "Salt and pepper"],
+    "steps": ["Mix the meat with cumin, coriander, paprika, garlic, salt, and pepper; shape into two long kebabs.", "Grill or pan-sear until browned and fully cooked, turning as needed.", "Mix cucumber into the yogurt with a pinch of salt.", "Warm the flatbreads, add lettuce, tomato, kebab, and yogurt sauce, then roll to serve."],
+    "substitution": "Use seasoned grilled halloumi or firm tofu for a meat-free wrap.",
+    "drink_pairing": "Cold mint lemonade."
+  },
+  {
+    "id": "L028",
+    "name": "Canadian Poutine",
+    "country": "Canada",
+    "cuisine": "Canadian",
+    "description": "Crisp fries topped with cheese curds and hot gravy, a classic Québécois comfort dish.",
+    "seasons": ["winter", "autumn", "spring"],
+    "weather": ["cool", "rainy", "cloudy"],
+    "tags": ["vegetarian optional", "potato", "comfort", "gravy", "cheese"],
+    "servings": 2,
+    "time_minutes": 40,
+    "ingredients": ["500 g potatoes, cut into fries", "1 tbsp oil", "1 cup cheese curds", "1 cup beef or vegetable gravy", "Salt and black pepper"],
+    "steps": ["Toss potato fries with oil, salt, and pepper; bake at 220°C until crisp, turning once.", "Heat the gravy until steaming.", "Divide hot fries between plates and scatter cheese curds over them.", "Pour hot gravy on top and serve immediately."],
+    "substitution": "Use mozzarella pearls if cheese curds are unavailable; choose vegetable gravy for a vegetarian version.",
+    "drink_pairing": "Sparkling water or iced tea."
+  },
+  {
+    "id": "L029",
+    "name": "British Fish and Chips",
+    "country": "United Kingdom",
+    "cuisine": "British",
+    "description": "Oven-baked battered white fish with chunky chips and peas for a familiar pub-style lunch.",
+    "seasons": ["winter", "autumn", "spring"],
+    "weather": ["cool", "rainy", "cloudy"],
+    "tags": ["fish", "potato", "baked", "comfort"],
+    "servings": 2,
+    "time_minutes": 40,
+    "ingredients": ["2 white fish fillets", "3 medium potatoes, cut into thick chips", "1 egg", "1/2 cup flour", "1/2 cup breadcrumbs", "1 tbsp oil", "1 cup peas", "Lemon wedge", "Salt and black pepper"],
+    "steps": ["Bake the chips with oil, salt, and pepper at 220°C until golden, turning once.", "Dip fish in flour, then beaten egg, then breadcrumbs.", "Bake fish on a separate tray until opaque and flaky, about 12–15 minutes.", "Warm the peas and serve with fish, chips, and lemon."],
+    "substitution": "Use tofu or thick cauliflower slices instead of fish.",
+    "drink_pairing": "Black tea or sparkling water."
+  },
+  {
+    "id": "L030",
+    "name": "Australian Beef Meat Pie",
+    "country": "Australia",
+    "cuisine": "Australian",
+    "description": "A hand-sized savory pie filled with slow-simmered beef and onion in gravy.",
+    "seasons": ["winter", "autumn", "spring"],
+    "weather": ["cool", "rainy", "cloudy"],
+    "tags": ["beef", "pastry", "baked", "comfort"],
+    "servings": 4,
+    "time_minutes": 55,
+    "ingredients": ["300 g ground beef", "1 small onion, diced", "1 tbsp tomato paste", "1 tbsp flour", "1 cup beef stock", "1 sheet shortcrust pastry", "1 sheet puff pastry", "1 egg, beaten", "Salt and pepper"],
+    "steps": ["Brown beef and onion in a pan; stir in tomato paste and flour.", "Add stock and simmer until thick, then cool the filling.", "Line small pie tins with shortcrust pastry and fill with the beef mixture.", "Top with puff pastry, seal edges, brush with egg, and bake at 200°C until golden."],
+    "substitution": "Use lentils and vegetable stock for a meat-free pie.",
+    "drink_pairing": "Iced tea or water."
+  },
+  {
+    "id": "L031",
+    "name": "Brazilian-Style Feijoada",
+    "country": "Brazil",
+    "cuisine": "Brazilian-inspired",
+    "description": "A weeknight black bean stew with smoky sausage, served with rice and orange slices.",
+    "seasons": ["winter", "autumn", "tropical"],
+    "weather": ["cool", "rainy", "cloudy"],
+    "tags": ["beans", "pork", "stew", "rice", "comfort"],
+    "servings": 3,
+    "time_minutes": 45,
+    "ingredients": ["2 cans black beans, rinsed", "150 g smoked sausage, sliced", "1 small onion, diced", "2 garlic cloves, minced", "1 tomato, chopped", "1 bay leaf", "1 tbsp oil", "Cooked rice", "Orange slices"],
+    "steps": ["Brown sausage in oil, then add onion and garlic and cook until soft.", "Add tomato, beans, bay leaf, and 1 cup water.", "Simmer for 25 minutes, lightly mashing some beans to thicken the stew.", "Serve with rice and orange slices."],
+    "substitution": "Omit sausage and add smoked paprika for a vegetarian bean stew.",
+    "drink_pairing": "Lime soda."
+  },
+  {
+    "id": "L032",
+    "name": "Argentinian Beef Empanadas",
+    "country": "Argentina",
+    "cuisine": "Argentinian-inspired",
+    "description": "Baked pastry pockets filled with seasoned beef, onion, and egg.",
+    "seasons": ["winter", "spring", "autumn", "tropical"],
+    "weather": ["cool", "cloudy"],
+    "tags": ["beef", "pastry", "baked", "hand pie"],
+    "servings": 3,
+    "time_minutes": 45,
+    "ingredients": ["300 g ground beef", "1 small onion, finely diced", "1/2 tsp paprika", "1/4 tsp cumin", "2 hard-boiled eggs, chopped", "6 pastry rounds", "1 egg, beaten", "1 tbsp oil", "Salt and pepper"],
+    "steps": ["Cook onion in oil until soft; add beef, paprika, cumin, salt, and pepper and cook through.", "Cool the filling and fold in chopped egg.", "Place filling on pastry rounds, fold over, and crimp the edges closed.", "Brush with beaten egg and bake at 200°C until golden."],
+    "substitution": "Use cooked lentils and diced peppers instead of beef.",
+    "drink_pairing": "Sparkling water with lemon."
+  },
+  {
+    "id": "L033",
+    "name": "Peruvian Lomo Saltado",
+    "country": "Peru",
+    "cuisine": "Peruvian",
+    "description": "A quick beef, onion, and tomato stir-fry with soy and vinegar, served with rice and potatoes.",
+    "seasons": ["summer", "spring", "autumn", "tropical"],
+    "weather": ["hot", "cloudy"],
+    "tags": ["beef", "stir-fry", "rice", "potato", "quick"],
+    "servings": 2,
+    "time_minutes": 30,
+    "ingredients": ["250 g beef strips", "1 red onion, sliced", "2 tomatoes, cut into wedges", "1 tbsp soy sauce", "1 tbsp vinegar", "1 garlic clove, minced", "1 tbsp oil", "1 cup cooked rice", "1 cup oven fries", "Cilantro"],
+    "steps": ["Cook oven fries according to package directions.", "Sear beef quickly in a very hot pan with oil; remove and set aside.", "Stir-fry garlic and onion, then add tomatoes, soy sauce, and vinegar.", "Return beef to the pan briefly; serve with rice and fries, topped with cilantro."],
+    "substitution": "Use mushrooms or tofu instead of beef.",
+    "drink_pairing": "Chilled lime water."
+  },
+  {
+    "id": "L034",
+    "name": "German Potato Pancakes",
+    "country": "Germany",
+    "cuisine": "German",
+    "description": "Crisp grated-potato pancakes served with applesauce or a green salad.",
+    "seasons": ["winter", "autumn", "spring"],
+    "weather": ["cool", "cloudy", "rainy"],
+    "tags": ["vegetarian", "potato", "pan-fried", "comfort"],
+    "servings": 2,
+    "time_minutes": 30,
+    "ingredients": ["500 g potatoes, peeled and grated", "1 small onion, grated", "1 egg", "2 tbsp flour", "Salt and pepper", "2 tbsp oil", "Applesauce or salad to serve"],
+    "steps": ["Squeeze excess liquid from the grated potatoes and onion.", "Mix with egg, flour, salt, and pepper.", "Pan-fry spoonfuls in hot oil, flattening each into a small pancake; cook until crisp on both sides.", "Drain briefly and serve hot with applesauce or salad."],
+    "substitution": "Use chickpea flour instead of wheat flour if needed.",
+    "drink_pairing": "Apple juice or tea."
+  },
+  {
+    "id": "L035",
+    "name": "Portuguese Caldo Verde",
+    "country": "Portugal",
+    "cuisine": "Portuguese",
+    "description": "A simple potato and greens soup finished with olive oil and optional smoky sausage.",
+    "seasons": ["winter", "autumn", "spring"],
+    "weather": ["cool", "rainy", "cloudy"],
+    "tags": ["soup", "potato", "greens", "comfort"],
+    "servings": 3,
+    "time_minutes": 35,
+    "ingredients": ["4 medium potatoes, peeled and diced", "1 small onion, diced", "5 cups vegetable stock", "2 cups thinly sliced kale or collard greens", "1 tbsp olive oil", "100 g chorizo, sliced (optional)", "Salt and pepper"],
+    "steps": ["Simmer potatoes and onion in stock until very soft.", "Mash or blend the potatoes into a thick soup.", "Stir in greens and cook until tender; add chorizo if using and heat through.", "Finish with olive oil, salt, and pepper."],
+    "substitution": "Use spinach instead of kale and smoked paprika instead of chorizo.",
+    "drink_pairing": "Water or mild black tea."
+  },
+  {
+    "id": "L036",
+    "name": "Indonesian Nasi Goreng",
+    "country": "Indonesia",
+    "cuisine": "Indonesian-inspired",
+    "description": "A quick fried rice seasoned with sweet soy sauce, garlic, and vegetables.",
+    "seasons": ["summer", "spring", "tropical"],
+    "weather": ["hot", "cloudy"],
+    "tags": ["rice", "quick", "egg", "stir-fry"],
+    "servings": 2,
+    "time_minutes": 20,
+    "ingredients": ["3 cups cold cooked rice", "2 eggs", "1 cup mixed vegetables", "2 garlic cloves, minced", "1 tbsp sweet soy sauce", "1 tsp soy sauce", "1 tbsp oil", "Sliced cucumber to serve"],
+    "steps": ["Scramble the eggs in a hot wok or pan and set aside.", "Stir-fry garlic and vegetables in oil until just tender.", "Add rice and both soy sauces; toss over high heat until hot.", "Fold in the egg and serve with cucumber."],
+    "substitution": "Use tofu in place of egg and regular soy sauce with a pinch of sugar if sweet soy is unavailable.",
+    "drink_pairing": "Iced jasmine tea."
+  },
+  {
+    "id": "L037",
+    "name": "Filipino Chicken Adobo",
+    "country": "Philippines",
+    "cuisine": "Filipino-inspired",
+    "description": "Chicken simmered in a savory vinegar, soy, garlic, and bay sauce, served with rice.",
+    "seasons": ["winter", "spring", "autumn", "tropical"],
+    "weather": ["rainy", "cloudy", "cool"],
+    "tags": ["chicken", "rice", "stew", "soy", "vinegar"],
+    "servings": 2,
+    "time_minutes": 45,
+    "ingredients": ["500 g chicken pieces", "1/4 cup soy sauce", "1/4 cup vinegar", "4 garlic cloves, crushed", "2 bay leaves", "1/2 tsp black peppercorns", "1 cup water", "Cooked rice"],
+    "steps": ["Combine chicken, soy sauce, vinegar, garlic, bay leaves, pepper, and water in a pot.", "Bring to a gentle simmer, cover, and cook until chicken is tender and fully cooked.", "Uncover and simmer briefly to reduce the sauce to your liking.", "Serve with rice and spoon the sauce over the chicken."],
+    "substitution": "Use firm tofu or mushrooms for a vegetarian version and shorten the simmer.",
+    "drink_pairing": "Calamansi or lime water."
+  },
+  {
+    "id": "L038",
+    "name": "Egyptian Koshari",
+    "country": "Egypt",
+    "cuisine": "Egyptian-inspired",
+    "description": "A hearty bowl of rice, lentils, pasta, chickpeas, and tangy tomato sauce topped with crisp onions.",
+    "seasons": ["winter", "autumn", "spring", "tropical"],
+    "weather": ["cool", "cloudy", "rainy"],
+    "tags": ["vegetarian", "lentils", "rice", "pasta", "chickpeas", "comfort"],
+    "servings": 3,
+    "time_minutes": 45,
+    "ingredients": ["1/2 cup rice", "1/2 cup brown lentils", "1 cup cooked chickpeas", "1 cup small pasta", "1 can chopped tomatoes", "1 onion, thinly sliced", "2 tbsp oil", "1 tsp cumin", "1 tbsp vinegar", "Salt"],
+    "steps": ["Cook rice, lentils, pasta, and chickpeas separately; keep warm.", "Simmer tomatoes with cumin, vinegar, and salt for 10 minutes.", "Fry onion in oil until deeply golden and crisp; drain on a paper towel.", "Layer rice, lentils, pasta, and chickpeas; spoon tomato sauce over and top with onion."],
+    "substitution": "Use canned lentils or chickpeas to save time.",
+    "drink_pairing": "Mint tea."
+  },
+  {
+    "id": "L039",
+    "name": "Nigerian-Inspired Jollof Rice",
+    "country": "Nigeria",
+    "cuisine": "Nigerian-inspired",
+    "description": "One-pot rice cooked in a tomato and pepper base with warming spices.",
+    "seasons": ["summer", "spring", "autumn", "tropical"],
+    "weather": ["hot", "cloudy", "rainy"],
+    "tags": ["vegetarian", "rice", "tomato", "one-pot", "spiced"],
+    "servings": 3,
+    "time_minutes": 40,
+    "ingredients": ["1 1/2 cups long-grain rice", "1 can chopped tomatoes", "1 red bell pepper", "1 small onion", "2 tbsp tomato paste", "1 tsp thyme", "1/2 tsp curry powder", "2 cups vegetable stock", "2 tbsp oil", "Salt"],
+    "steps": ["Blend tomatoes, bell pepper, and half the onion until smooth.", "Cook the remaining onion in oil; add tomato paste and the blended mixture and simmer until thick.", "Stir in thyme, curry powder, salt, rice, and stock.", "Cover and cook on low until the rice is tender and liquid is absorbed, adding a splash of water if needed."],
+    "substitution": "Add cooked beans or vegetables for a more filling vegetarian plate.",
+    "drink_pairing": "Ginger drink or chilled water."
+  },
+  {
+    "id": "L040",
+    "name": "Lebanese Tabbouleh with Pita",
+    "country": "Lebanon",
+    "cuisine": "Lebanese",
+    "description": "A bright parsley, tomato, and bulgur salad with lemon, served with pita for a fresh lunch.",
+    "seasons": ["summer", "spring", "tropical"],
+    "weather": ["hot"],
+    "tags": ["vegetarian", "salad", "bulgur", "fresh", "light"],
+    "servings": 2,
+    "time_minutes": 25,
+    "ingredients": ["1/3 cup fine bulgur", "2 cups finely chopped parsley", "2 tomatoes, finely diced", "2 scallions, sliced", "2 tbsp olive oil", "1 lemon", "Salt and pepper", "Pita bread to serve"],
+    "steps": ["Cover bulgur with hot water for 10 minutes, then drain very well.", "Combine parsley, tomato, scallions, and bulgur.", "Dress with olive oil, lemon juice, salt, and pepper.", "Chill briefly if time allows and serve with pita."],
+    "substitution": "Use cooked quinoa instead of bulgur.",
+    "drink_pairing": "Lemon-mint water."
+  },
+  {
+    "id": "L041",
+    "name": "Sri Lankan Kottu Roti",
+    "country": "Sri Lanka",
+    "cuisine": "Sri Lankan-inspired",
+    "description": "Chopped flatbread stir-fried with vegetables, egg, and curry spices for a filling street-food-style lunch.",
+    "seasons": ["summer", "spring", "autumn", "tropical"],
+    "weather": ["rainy", "cloudy", "hot"],
+    "tags": ["flatbread", "egg", "stir-fry", "vegetables", "street food"],
+    "servings": 2,
+    "time_minutes": 25,
+    "ingredients": ["3 roti or flatbreads, chopped", "2 eggs", "1 cup shredded cabbage", "1 carrot, grated", "1 small onion, sliced", "1 tsp curry powder", "1 tbsp oil", "2 tbsp water or stock", "Salt"],
+    "steps": ["Scramble the eggs in a hot pan and set aside.", "Stir-fry onion, cabbage, and carrot in oil until just tender.", "Add chopped roti, curry powder, salt, and a splash of water; toss until hot.", "Return eggs to the pan, chop and mix everything together, then serve."],
+    "substitution": "Use leftover cooked chicken or tofu instead of egg, or add both.",
+    "drink_pairing": "Iced lime tea."
+  },
+  {
+    "id": "L042",
+    "name": "Nepalese Vegetable Momo",
+    "country": "Nepal",
+    "cuisine": "Nepalese-inspired",
+    "description": "Steamed dumplings filled with cabbage, carrot, and ginger, served with a simple tomato dipping sauce.",
+    "seasons": ["winter", "autumn", "spring"],
+    "weather": ["cool", "rainy", "cloudy"],
+    "tags": ["vegetarian", "dumplings", "steamed", "comfort"],
+    "servings": 3,
+    "time_minutes": 50,
+    "ingredients": ["24 dumpling wrappers", "1 cup finely shredded cabbage", "1 carrot, grated", "2 scallions, chopped", "1 tsp grated ginger", "1 tbsp soy sauce", "1 tomato", "1 small garlic clove", "Salt"],
+    "steps": ["Mix cabbage, carrot, scallions, ginger, soy sauce, and salt.", "Place a teaspoon of filling in each wrapper, moisten the edge, and pleat closed.", "Steam dumplings until the wrappers are tender and filling is hot, about 10–12 minutes.", "Blend or finely chop tomato and garlic with salt for a quick dipping sauce."],
+    "substitution": "Use minced chicken or crumbled tofu in the filling.",
+    "drink_pairing": "Ginger tea."
+  }
+]
