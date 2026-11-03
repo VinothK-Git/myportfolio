@@ -25,6 +25,9 @@ type Weather = {
   date: string
   season: string
   current_conditions: string
+  current_temperature_c: number | null
+  feels_like_c: number | null
+  current_precipitation_mm: number | null
   forecast_conditions: string
   high_c: number | null
   low_c: number | null
@@ -36,6 +39,17 @@ type Suggestion = { weather: Weather; recipe: Recipe; reason: string; generated:
 
 const defaultLocation = 'Visakhapatnam, Andhra Pradesh'
 const defaultCountryCode = 'IN'
+const countries = [
+  ['AR', 'Argentina'], ['AU', 'Australia'], ['BR', 'Brazil'], ['CA', 'Canada'],
+  ['CN', 'China'], ['EG', 'Egypt'], ['ET', 'Ethiopia'], ['FR', 'France'],
+  ['DE', 'Germany'], ['GR', 'Greece'], ['IN', 'India'], ['ID', 'Indonesia'],
+  ['IT', 'Italy'], ['JP', 'Japan'], ['LB', 'Lebanon'], ['MX', 'Mexico'],
+  ['MA', 'Morocco'], ['NP', 'Nepal'], ['NG', 'Nigeria'], ['PE', 'Peru'],
+  ['PH', 'Philippines'], ['PT', 'Portugal'], ['KR', 'South Korea'], ['ES', 'Spain'],
+  ['LK', 'Sri Lanka'], ['TH', 'Thailand'], ['TR', 'Türkiye'],
+  ['AE', 'United Arab Emirates'], ['GB', 'United Kingdom'], ['US', 'United States'],
+  ['VN', 'Vietnam'],
+] as const
 
 function seasonFor(latitude: number, month: number) {
   if (Math.abs(latitude) < 23.5) return 'tropical'
@@ -96,6 +110,9 @@ async function loadSuggestion(locationName: string, countryCode: string, prefere
     date: daily.time?.[0] || new Date().toISOString().slice(0, 10),
     season: seasonFor(Number(place.latitude), Number(daily.time?.[0]?.slice(5, 7) || new Date().getMonth() + 1)),
     current_conditions: describeCode(code),
+    current_temperature_c: current.temperature_2m ?? null,
+    feels_like_c: current.apparent_temperature ?? null,
+    current_precipitation_mm: current.precipitation ?? null,
     forecast_conditions: forecastConditions,
     high_c: high,
     low_c: low,
@@ -178,14 +195,19 @@ export default function LunchAgent() {
       <div className="lunch-panel">
         <form className="lunch-form" onSubmit={submit}>
           <label>City or region<input value={location} onChange={event => setLocation(event.target.value)} placeholder="e.g. Visakhapatnam, Andhra Pradesh" required/></label>
-          <label>Country code <span className="optional">optional</span><input value={countryCode} onChange={event => setCountryCode(event.target.value)} placeholder="e.g. IN, US, FR" maxLength={2}/></label>
+          <label>Country<select value={countryCode} onChange={event => { setCountryCode(event.target.value); setLocation('') }} required>
+            {countries.map(([code, name]) => <option key={code} value={code}>{name}</option>)}
+          </select></label>
           <label className="wide">Food preferences <span className="optional">optional</span><input value={preferences} onChange={event => setPreferences(event.target.value)} placeholder="Vegetarian, no peanuts, mild spice"/></label>
           <button className="lunch-submit" type="submit" disabled={loading}>{loading ? 'Finding a recipe…' : 'Find my lunch'} <span>↗</span></button>
         </form>
         {error && <p className="lunch-error" role="alert">{error}</p>}
         {suggestion && recipe && weather && <article className="lunch-result" aria-live="polite">
-          <div className="lunch-weather"><span>{weather.location}</span><span>{weather.date}</span></div>
-          <div className="lunch-weather-detail">{weather.current_conditions} now · {weather.high_c}° / {weather.low_c}°C · {weather.rain_probability_percent ?? '—'}% rain chance</div>
+          <section className="lunch-weather-card" aria-label="Current weather">
+            <div className="lunch-weather-heading"><div><span className="lunch-weather-kicker">Current weather · {weather.date}</span><span className="lunch-weather-place">{weather.location}</span></div><span className="lunch-weather-icon" aria-hidden="true">{/ rain|shower|drizzle|thunderstorm/i.test(weather.current_conditions) ? '☂' : /cloud|overcast|fog/i.test(weather.current_conditions) ? '☁' : '☀'}</span></div>
+            <div className="lunch-weather-main"><strong>{weather.current_temperature_c == null ? '—' : Math.round(weather.current_temperature_c)}°</strong><div><b>{weather.current_conditions}</b><span>Feels like {weather.feels_like_c == null ? '—' : Math.round(weather.feels_like_c)}°C</span></div></div>
+            <div className="lunch-weather-stats"><span><b>{weather.high_c ?? '—'}°</b><small>High</small></span><span><b>{weather.low_c ?? '—'}°</b><small>Low</small></span><span><b>{weather.rain_probability_percent ?? '—'}%</b><small>Rain chance</small></span><span><b>{weather.current_precipitation_mm ?? 0} mm</b><small>Now</small></span></div>
+          </section>
           <div className="lunch-result-top"><div><span className="lunch-recipe-id">{recipe.id} · {suggestion.generated ? 'AI-ASSISTED' : 'LIBRARY MATCH'}</span><h4>{recipe.name}</h4></div><span className="lunch-country">{recipe.country}</span></div>
           <p className="lunch-cuisine">{recipe.cuisine} · {recipe.servings} servings · {recipe.time_minutes} min</p>
           <p className="lunch-reason">{suggestion.reason}</p>
