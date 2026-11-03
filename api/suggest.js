@@ -37,8 +37,8 @@ export default async function handler(request, response) {
   const prompt = [
     'You write a brief, grounded lunch suggestion explanation for a public recipe website.',
     'Use only the provided weather and selected library recipe. Do not change the dish, ingredients, or method.',
-    'Write two concise sentences: say why this recipe fits the weather or season, name the recipe country and cuisine, and offer one practical serving or drink tip.',
-    'Do not claim rain is certain unless the forecast describes rain. Respect stated dietary preferences; if the selected recipe appears incompatible, say so briefly instead of claiming it meets them.',
+    'Write two concise sentences that explicitly recommend the selected dish for the measured weather: cite the current temperature (and feels-like temperature when available), mention the forecast and rain chance when available, then connect the recipe to matching weather tags or its description.',
+    'Name the recipe country and cuisine only when the provided recipe includes them. Do not invent missing cuisine details or claim rain is certain unless the forecast supports it. Offer one practical serving or drink tip. Respect stated dietary preferences; if the selected recipe appears incompatible, say so briefly instead of claiming it meets them.',
     `User preferences: ${preferences || 'None specified.'}`,
     `Weather data: ${JSON.stringify(weather)}`,
     `Selected recipe from the local library: ${JSON.stringify(recipe)}`,

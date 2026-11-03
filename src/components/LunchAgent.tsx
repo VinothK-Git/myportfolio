@@ -102,8 +102,9 @@ async function loadSuggestion(locationName: string, countryCode: string, prefere
   const forecastConditions = describeCode(dailyCode)
   const weatherTags = new Set<string>()
   if ((chance ?? 0) >= 45 || rain >= 2 || ['rain or showers', 'thunderstorms', 'drizzle'].includes(forecastConditions)) weatherTags.add('rainy')
-  if ((high ?? 0) >= 34) weatherTags.add('hot')
-  else if ((high ?? 99) <= 27) weatherTags.add('cool')
+  const mealTemperature = Number(current.temperature_2m ?? current.apparent_temperature ?? high)
+  if (mealTemperature >= 30 || (high ?? 0) >= 34) weatherTags.add('hot')
+  else if (mealTemperature <= 18 || (high ?? 99) <= 22) weatherTags.add('cool')
   if (['overcast', 'partly cloudy'].includes(forecastConditions)) weatherTags.add('cloudy')
 
   const country = place.country || 'Unknown country'
@@ -141,7 +142,13 @@ async function loadSuggestion(locationName: string, countryCode: string, prefere
   if (!recipe) throw new Error('There are no recipes in the library yet.')
 
   const cuisine = cuisineFor(recipe)
-  const defaultReason = `${recipe.name} is ${cuisine ? `a ${cuisine} dish` : 'a recipe'} from ${recipe.country}. It was selected for ${weather.season === 'tropical' ? 'the local tropical climate' : `the ${weather.season} season`} and today’s ${weather.forecast_conditions} forecast.`
+  const currentTemperature = weather.current_temperature_c == null ? 'current temperature unavailable' : `${Math.round(weather.current_temperature_c)}°C now${weather.feels_like_c == null ? '' : ` (feels like ${Math.round(weather.feels_like_c)}°C)`}`
+  const rainForecast = weather.rain_probability_percent == null ? '' : ` with a ${weather.rain_probability_percent}% rain chance`
+  const matchingWeather = weather.weather_tags.filter(tag => recipe.weather.includes(tag))
+  const weatherFit = matchingWeather.length
+    ? `The recipe library tags it as a match for ${matchingWeather.join(' and ')} weather.`
+    : `It was selected from the local recipe library for the ${weather.season === 'tropical' ? 'local tropical climate' : `${weather.season} season`}.`
+  const defaultReason = `With ${currentTemperature}, ${weather.forecast_conditions} in today’s forecast${rainForecast}, I recommend ${recipe.name} for lunch. ${weatherFit}`
   let reason = defaultReason
   let generated = false
   if (import.meta.env.VITE_HOSTED_AI === 'true') {
@@ -217,6 +224,7 @@ export default function LunchAgent() {
           </section>
           <div className="lunch-result-top"><div><span className="lunch-recipe-id">{recipe.id} · {suggestion.generated ? 'AI-ASSISTED' : 'LIBRARY MATCH'}</span><h4>{recipe.name}</h4></div><span className="lunch-country">{recipe.country}</span></div>
           <p className="lunch-cuisine">{cuisine ? `${cuisine} · ` : ''}{recipe.servings} servings · {recipe.time_minutes} min</p>
+          <h5>Why it fits today’s weather</h5>
           <p className="lunch-reason">{suggestion.reason}</p>
           <h5>Ingredients</h5><ul>{recipe.ingredients.map(item => <li key={item}>{item}</li>)}</ul>
           <h5>Method</h5><ol>{recipe.steps.map((step, index) => <li key={`${index}-${step}`}>{step}</li>)}</ol>
