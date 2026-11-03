@@ -37,6 +37,10 @@ type Weather = {
 
 type Suggestion = { weather: Weather; recipe: Recipe; reason: string; generated: boolean }
 
+function cuisineFor(recipe: Recipe) {
+  return recipe.cuisine || (recipe.country === 'India' ? 'South Indian' : '')
+}
+
 const defaultLocation = 'Visakhapatnam, Andhra Pradesh'
 const defaultCountryCode = 'IN'
 const countries = [
@@ -126,8 +130,8 @@ async function loadSuggestion(locationName: string, countryCode: string, prefere
   const localRecipes = recipes.filter(recipe => recipe.country.toLowerCase() === country.toLowerCase())
   const pool = localRecipes.length ? localRecipes : recipes
   const queryTerms = new Set(`${weather.season} ${weather.weather_tags.join(' ')} ${weather.forecast_conditions} ${preferences}`.toLowerCase().match(/[a-z]+/g) || [])
-  const ranked = pool.map(recipe => {
-    const terms = new Set(`${recipe.name} ${recipe.description} ${recipe.cuisine} ${recipe.tags.join(' ')}`.toLowerCase().match(/[a-z]+/g) || [])
+    const ranked = pool.map(recipe => {
+    const terms = new Set(`${recipe.name} ${recipe.description} ${cuisineFor(recipe)} ${recipe.tags.join(' ')}`.toLowerCase().match(/[a-z]+/g) || [])
     const overlap = [...queryTerms].filter(term => terms.has(term)).length / Math.max(1, queryTerms.size)
     const season = recipe.seasons.includes(weather.season) ? 0.25 : 0
     const weatherScore = weather.weather_tags.filter(tag => recipe.weather.includes(tag)).length * 0.3
@@ -136,7 +140,8 @@ async function loadSuggestion(locationName: string, countryCode: string, prefere
   const recipe = ranked[0]?.recipe
   if (!recipe) throw new Error('There are no recipes in the library yet.')
 
-  const defaultReason = `${recipe.name} is a ${recipe.cuisine} dish from ${recipe.country}. It was selected for ${weather.season === 'tropical' ? 'the local tropical climate' : `the ${weather.season} season`} and today’s ${weather.forecast_conditions} forecast.`
+  const cuisine = cuisineFor(recipe)
+  const defaultReason = `${recipe.name} is ${cuisine ? `a ${cuisine} dish` : 'a recipe'} from ${recipe.country}. It was selected for ${weather.season === 'tropical' ? 'the local tropical climate' : `the ${weather.season} season`} and today’s ${weather.forecast_conditions} forecast.`
   let reason = defaultReason
   let generated = false
   if (import.meta.env.VITE_HOSTED_AI === 'true') {
@@ -182,6 +187,7 @@ export default function LunchAgent() {
   }
 
   const recipe = suggestion?.recipe
+  const cuisine = recipe ? cuisineFor(recipe) : ''
   const weather = suggestion?.weather
   return <section className="lunch wrap" id="lunch">
     <div className="section-head"><span>(03)</span><h2>Lunch, by place & weather</h2><span>42 recipes · 31 countries</span></div>
@@ -206,10 +212,11 @@ export default function LunchAgent() {
           <section className="lunch-weather-card" aria-label="Current weather">
             <div className="lunch-weather-heading"><div><span className="lunch-weather-kicker">Current weather · {weather.date}</span><span className="lunch-weather-place">{weather.location}</span></div><span className="lunch-weather-icon" aria-hidden="true">{/ rain|shower|drizzle|thunderstorm/i.test(weather.current_conditions) ? '☂' : /cloud|overcast|fog/i.test(weather.current_conditions) ? '☁' : '☀'}</span></div>
             <div className="lunch-weather-main"><strong>{weather.current_temperature_c == null ? '—' : Math.round(weather.current_temperature_c)}°</strong><div><b>{weather.current_conditions}</b><span>Feels like {weather.feels_like_c == null ? '—' : Math.round(weather.feels_like_c)}°C</span></div></div>
+            <p className="lunch-weather-outlook">Today’s forecast: <b>{weather.forecast_conditions}</b></p>
             <div className="lunch-weather-stats"><span><b>{weather.high_c ?? '—'}°</b><small>High</small></span><span><b>{weather.low_c ?? '—'}°</b><small>Low</small></span><span><b>{weather.rain_probability_percent ?? '—'}%</b><small>Rain chance</small></span><span><b>{weather.current_precipitation_mm ?? 0} mm</b><small>Now</small></span></div>
           </section>
           <div className="lunch-result-top"><div><span className="lunch-recipe-id">{recipe.id} · {suggestion.generated ? 'AI-ASSISTED' : 'LIBRARY MATCH'}</span><h4>{recipe.name}</h4></div><span className="lunch-country">{recipe.country}</span></div>
-          <p className="lunch-cuisine">{recipe.cuisine} · {recipe.servings} servings · {recipe.time_minutes} min</p>
+          <p className="lunch-cuisine">{cuisine ? `${cuisine} · ` : ''}{recipe.servings} servings · {recipe.time_minutes} min</p>
           <p className="lunch-reason">{suggestion.reason}</p>
           <h5>Ingredients</h5><ul>{recipe.ingredients.map(item => <li key={item}>{item}</li>)}</ul>
           <h5>Method</h5><ol>{recipe.steps.map((step, index) => <li key={`${index}-${step}`}>{step}</li>)}</ol>
