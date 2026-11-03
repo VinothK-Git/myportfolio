@@ -142,13 +142,16 @@ async function loadSuggestion(locationName: string, countryCode: string, prefere
   if (!recipe) throw new Error('There are no recipes in the library yet.')
 
   const cuisine = cuisineFor(recipe)
-  const currentTemperature = weather.current_temperature_c == null ? 'current temperature unavailable' : `${Math.round(weather.current_temperature_c)}°C now${weather.feels_like_c == null ? '' : ` (feels like ${Math.round(weather.feels_like_c)}°C)`}`
-  const rainForecast = weather.rain_probability_percent == null ? '' : ` with a ${weather.rain_probability_percent}% rain chance`
+  const currentTemperature = weather.current_temperature_c == null ? '' : `${Math.round(weather.current_temperature_c)}°C now${weather.feels_like_c == null ? '' : ` (feels like ${Math.round(weather.feels_like_c)}°C)`}`
+  const rainForecast = weather.rain_probability_percent == null ? '' : ` and a ${weather.rain_probability_percent}% chance of rain`
   const matchingWeather = weather.weather_tags.filter(tag => recipe.weather.includes(tag))
   const weatherFit = matchingWeather.length
     ? `The recipe library tags it as a match for ${matchingWeather.join(' and ')} weather.`
     : `It was selected from the local recipe library for the ${weather.season === 'tropical' ? 'local tropical climate' : `${weather.season} season`}.`
-  const defaultReason = `With ${currentTemperature}, ${weather.forecast_conditions} in today’s forecast${rainForecast}, I recommend ${recipe.name} for lunch. ${weatherFit}`
+  const conditionsSummary = currentTemperature
+    ? `The weather is ${currentTemperature}, with ${weather.forecast_conditions} in today’s forecast${rainForecast}`
+    : `Today’s forecast is ${weather.forecast_conditions}${rainForecast}`
+  const defaultReason = `${conditionsSummary}. I recommend ${recipe.name} for lunch. ${weatherFit}`
   let reason = defaultReason
   let generated = false
   if (import.meta.env.VITE_HOSTED_AI === 'true') {
