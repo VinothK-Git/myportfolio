@@ -16,7 +16,7 @@ export default function VisitorCount() {
 
     let active = true
     const action = alreadyCounted ? 'get' : 'hit'
-    fetch(`/api/visitors?action=${action}`, { cache: 'no-store' })
+    fetch(`/api/visitors?action=${action}`, { method: 'POST', cache: 'no-store' })
       .then(async response => {
         if (!response.ok) throw new Error('Visitor count unavailable')
         return response.json() as Promise<{ count: number }>

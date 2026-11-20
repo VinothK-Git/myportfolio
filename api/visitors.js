@@ -2,8 +2,8 @@ const COUNTER_KEY = 'vinothk-portfolio-visitors-20261120-7d84bb893ded4a04a7873a9
 
 export default async function handler(request, response) {
   response.setHeader('Cache-Control', 'no-store')
-  if (request.method !== 'GET') {
-    response.setHeader('Allow', 'GET')
+  if (request.method !== 'POST') {
+    response.setHeader('Allow', 'POST')
     return response.status(405).json({ error: 'Method not allowed.' })
   }
 
