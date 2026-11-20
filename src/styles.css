@@ -6,6 +6,8 @@
 
 .contact{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.46fr);column-gap:7%;align-items:center;min-height:650px}
 .contact-copy{min-width:0}
-.contact-portrait{display:block;width:100%;max-width:340px;aspect-ratio:4/5;justify-self:end;object-fit:cover;object-position:center 27%;clip-path:ellipse(48% 49% at 50% 50%);mix-blend-mode:multiply}
+.contact-portrait-wrap{width:100%;max-width:390px;height:480px;position:relative;justify-self:end;align-self:end;display:flex;align-items:flex-end;justify-content:center}
+.portrait-accent{position:absolute;width:86%;height:76%;left:5%;bottom:13%;background:var(--lime);border-radius:47% 53% 43% 57% / 51% 45% 55% 49%;transform:rotate(-9deg)}
+.contact-portrait{display:block;position:relative;z-index:1;width:100%;height:100%;object-fit:contain;object-position:center bottom}
 .contact h2{font-size:clamp(58px,7vw,112px)}
-@media(max-width:720px){.contact{display:flex;flex-direction:column;align-items:stretch;min-height:0;gap:32px}.contact-portrait{width:220px;max-width:70%;align-self:center;order:2}.contact h2{font-size:clamp(58px,12vw,86px)}}
+@media(max-width:720px){.contact{display:flex;flex-direction:column;align-items:stretch;min-height:0;gap:32px}.contact-portrait-wrap{width:280px;max-width:100%;height:360px;align-self:center;order:2}.contact h2{font-size:clamp(58px,12vw,86px)}}
