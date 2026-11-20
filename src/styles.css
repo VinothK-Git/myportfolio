@@ -12,11 +12,11 @@
 .contact h2{font-size:clamp(58px,7vw,112px)}
 @media(max-width:720px){.contact{display:flex;flex-direction:column;align-items:stretch;min-height:0;gap:32px}.contact-portrait-wrap{width:280px;max-width:100%;height:360px;align-self:center;order:2}.contact h2{font-size:clamp(58px,12vw,86px)}}
 .hero{position:relative;isolation:isolate}
-.hero-art{position:absolute;z-index:-1;top:19%;right:17%;width:clamp(140px,17vw,224px);height:auto;overflow:visible;pointer-events:none}
+.hero-art{position:absolute;z-index:-1;top:19%;right:17%;width:clamp(161px,19.55vw,258px);height:auto;overflow:visible;pointer-events:none}
 .hero-art-orbit{fill:none;stroke:var(--ink);stroke-width:1;opacity:.52}
 .hero-art-sun{fill:var(--lime)}
 .hero-art-moon{fill:var(--cream);opacity:.86}
 .hero-art-spark{fill:var(--orange)}
 .hero-art-dot{fill:var(--ink)}
 .hero-art-ray{fill:none;stroke:var(--ink);stroke-width:1.5;stroke-linecap:round}
-@media(max-width:720px){.hero-art{top:15%;right:2%;width:130px;opacity:.78}}
+@media(max-width:720px){.hero-art{top:15%;right:2%;width:150px;opacity:.78}}
